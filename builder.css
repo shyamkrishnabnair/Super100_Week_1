@@ -1,0 +1,16 @@
+
+  .midbody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, red, indigo);
+  }
+  .mid {
+    text-align: center;
+    padding: 5rem;
+  }
+  .footer {
+    width: 100%;
+  }

@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(251, 251, 105);
+}
+aside{
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+aside a{
+    text-align: center;
+    width: 100px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border-right: solid 10px black;
+}
+main{
+    width: 70%;
+    margin-left: 100px;
+    padding: 20px;
+}

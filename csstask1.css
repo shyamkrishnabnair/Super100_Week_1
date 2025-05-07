@@ -1,0 +1,55 @@
+.task4 table{
+    width: 100%;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.task4 td {
+    border-radius: 50px;
+    border: 2px solid white;
+}
+.task4 th {
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .box {
+    width: 100px;
+    height: 70px;
+    border: 2px solid limegreen;
+  }
+
+  .one{
+    border-radius: 5px;
+  }
+
+  .two{
+    border-radius: 10px;
+  }
+  .three{
+    border-radius: 20px;
+  }
+  .four{
+    border-radius: 10px;
+  }
+  .six{
+    border-radius: 8px;
+  }
+  .five{
+    border-radius: 0px;
+  }
+  .seven{
+    border-radius: 50%;
+  }
+  .nine{
+    border-radius: 0px 30px;
+  }

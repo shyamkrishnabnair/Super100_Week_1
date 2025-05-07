@@ -1,0 +1,93 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(270deg, #ff4e50, #fc466b, #8e2de2);
+    background-size: 600% 600%;
+    animation: gradientMove 12s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+fieldset{
+    border: none;
+}
+
+
+.login{
+    border: none;
+    border-radius: 20px;
+    width: 33%;
+    margin:auto auto;
+    padding:20px;
+    background-color: white;
+}
+
+input[type="text"],
+input[type="password"],
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+button[type="submit"]{
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: none;
+}
+button[type="submit"]:hover{
+    scale: 105%;
+}
+
+
+#end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid #ccc; /* optional, for better visibility */
+    padding-top: 10px;
+  }
+
+.login img{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid lightgreen;
+    border-radius: 100%;
+}
+
+#Cancel{
+    background-color: rgb(182, 214, 255);
+    border:none;
+    border-radius: 3px;
+    padding: 2%;
+}
+
+#Cancel:hover{
+    scale: 105%;
+}
+
+a{
+    color: lightslategray;
+    text-decoration: none;
+}
